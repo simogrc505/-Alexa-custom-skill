@@ -1,0 +1,128 @@
+//JSON INPUT
+{
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.a30fc319-3993-453c-9fac-2cfeedff247d",
+    "application": {
+      "applicationId": "amzn1.ask.skill.f48d86e1-c4f6-499d-bd9f-8dc2d72014c2"
+    },
+    "attributes": {
+      "score": 1,
+      "step": 1,
+      "region": [
+        "Friuli Venezia Giulia",
+        "Trieste"
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGA4ZHFKMEQQ5UN77L2S2V7VVUNETKB7GOF2CQZCT4XCRZNZPRFBYKQMTMXSUFLZGCIT664EDCEONMPEILMHHA5D6XO5KAPA4O2EH7MLBRS4JS4LKDR6GCWQENXRNV5MRQAGQ6QNUSRFFCPE5QCOTJYBZMMPXY5VHTNYEP5KDFEC6NACZIPDIU3IM6MNHQGUFON2WI6YEYLZJJI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.f48d86e1-c4f6-499d-bd9f-8dc2d72014c2"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGA4ZHFKMEQQ5UN77L2S2V7VVUNETKB7GOF2CQZCT4XCRZNZPRFBYKQMTMXSUFLZGCIT664EDCEONMPEILMHHA5D6XO5KAPA4O2EH7MLBRS4JS4LKDR6GCWQENXRNV5MRQAGQ6QNUSRFFCPE5QCOTJYBZMMPXY5VHTNYEP5KDFEC6NACZIPDIU3IM6MNHQGUFON2WI6YEYLZJJI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGUO7ZSEWPT4576KXW4QGYBVKRJW32SOV4HGAIJ2O2VN2X3SYSGY3IASMQICOFRPY7O5ETZMUAOUNW4UCBFI6DLI52MAECEVB65UOV62ZKVVJWMZ4OJ7R2KX2LWYDO4BZX7M6HQHTFDYRX3GEX6MDTJ64JW2METR4KYNJVU5NWLQS4OHHTBQ4",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmY0OGQ4NmUxLWM0ZjYtNDk5ZC1iZDlmLThkYzJkNzIwMTRjMiIsImV4cCI6MTU4NDk4MTYzNSwiaWF0IjoxNTg0OTgxMzM1LCJuYmYiOjE1ODQ5ODEzMzUsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFDdUZVc2FVYWVseVRYQXBqRlB0dHdzS3dFQUFBQUFBQURxL0NmWCtPbGdsZ1BrMGRVRzBPUTNlaGN3NkU5K3Y5Z29KMUE3SmV4NllJZW0xcGVGUW5mWHlSTktQRVBYZXdETzhoZFNMZnp3bjQ4N2FmUXpTZ1NhZWZ2NXF5S0UyUkphK3p0VzBHQjRQR2VxZ1NOTHpEalVyS0Fxa0JSMXVUTWxwTXhNd3ZGUERKc2NkaTQyOFNzUkQ3M2RqU0RVSHRWT0NqL2NHbC9JR2FYOXRCMjlZYWpoT01nK3VNVkRkVWY3bEc5WWxmZlJsc1NZOHNSNHZoSkwwYzlNSDVxNmRoeitTaW0xVjhMM1V6RDNvbmIzL0RZK1RqZzJVWWJWMFlEYWpKSW5HeFNReHIreTdDVXZWR2RvTDlKb3lxK0ZUbnBtbFRQZW05YXU5Q1NYZTRWZzlZa1EzckE3RmVtY0diY1UrcW41YVVyT1pmSUlKM3RaTzBEZk02akxpQkI4QXpFREJLZ01MRHdJVkZXaTY1SjhKQ3hkNE9SenNZc1VnNnhvbnFBVms4ZzNYZE1YTkE9PSIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFHVU83WlNFV1BUNDU3NktYVzRRR1lCVktSSlczMlNPVjRIR0FJSjJPMlZOMlgzU1lTR1kzSUFTTVFJQ09GUlBZN081RVRaTVVBT1VOVzRVQ0JGSTZETEk1Mk1BRUNFVkI2NVVPVjYyWktWVkpXTVo0T0o3UjJLWDJMV1lETzRCWlg3TTZIUUhURkRZUlgzR0VYNk1EVEo2NEpXMk1FVFI0S1lOSlZVNU5XTFFTNE9ISFRCUTQiLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BR0E0WkhGS01FUVE1VU43N0wyUzJWN1ZWVU5FVEtCN0dPRjJDUVpDVDRYQ1JaTlpQUkZCWUtRTVRNWFNVRkxaR0NJVDY2NEVEQ0VPTk1QRUlMTUhIQTVENlhPNUtBUEE0TzJFSDdNTEJSUzRKUzRMS0RSNkdDV1FFTlhSTlY1TVJRQUdRNlFOVVNSRkZDUEU1UUNPVEpZQlpNTVBYWTVWSFROWUVQNUtERkVDNk5BQ1pJUERJVTNJTTZNTkhRR1VGT04yV0k2WUVZTFpKSkkifX0.ZsNLObS_IZcFqIM86Ep4rkMYqZxb9vpEfTev9XBNOTa4BzK19Y7bzt2LER1Mc4887ibm7zaBoD8wbINIEJp1lZC4ydQ40AUNTvzUHUd6VEnN1hjhKf_l5G7OIR4ZqeDMpkj5BxrBUU__PBiwTD4-5cyfjrAuy0LVO8VGR-nr2xqqq942NkFytduda6Z15pXMUUa8_LopAGUlc-3R1ZVxc3cUWh7joqV2e0B6i6bVR_EScQl16KSvSCdwqFIKYILP8_zAeYmSPvklHVLeLJ8DrCzYMU5RhsQlCzorJB44toVTb3UecAEGzJO1L5mJIuC9hylpg9gFpr8XYkUMJ_HW8Q"
+    },
+    "Viewport": {
+      "experiences": [
+        {
+          "arcMinuteWidth": 246,
+          "arcMinuteHeight": 144,
+          "canRotate": false,
+          "canResize": false
+        }
+      ],
+      "shape": "RECTANGLE",
+      "pixelWidth": 1024,
+      "pixelHeight": 600,
+      "dpi": 160,
+      "currentPixelWidth": 1024,
+      "currentPixelHeight": 600,
+      "touch": [
+        "SINGLE"
+      ],
+      "video": {
+        "codecs": [
+          "H_264_42",
+          "H_264_41"
+        ]
+      }
+    },
+    "Viewports": [
+      {
+        "type": "APL",
+        "id": "main",
+        "shape": "RECTANGLE",
+        "dpi": 160,
+        "presentationType": "STANDARD",
+        "canRotate": false,
+        "configuration": {
+          "current": {
+            "video": {
+              "codecs": [
+                "H_264_42",
+                "H_264_41"
+              ]
+            },
+            "size": {
+              "type": "DISCRETE",
+              "pixelWidth": 1024,
+              "pixelHeight": 600
+            }
+          }
+        }
+      }
+    ]
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.11729191-5b32-473e-8d25-f5fb31cfd0b3",
+    "timestamp": "2020-03-23T16:35:35Z",
+    "locale": "it-IT",
+    "intent": {
+      "name": "ChiefTownIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+},
+
+//JSON OUTPUT
+{
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>Qual è il capoluogo di Puglia, tra Bari, Roma, Napoli?</speak>"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "type": "SSML",
+          "ssml": "<speak>Qual è il capoluogo di Puglia, tra Bari, Roma, Napoli?</speak>"
+        }
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "score": 1,
+      "step": 2,
+      "region": [
+        "Puglia",
+        "Bari"
+      ]
+    },
+    "userAgent": "ask-node/2.7.0 Node/v10.19.0"
+  }
+}
